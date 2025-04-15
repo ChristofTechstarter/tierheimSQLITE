@@ -19,3 +19,5 @@ INSERT INTO tiere (tierart, name, krankheit, age, gewicht)
 VALUES ("Pferd", "Esel", "kolik", 10, 550);
 
 SELECT * FROM tiere;
+
+DELETE FROM tiere WHERE id = 12;
